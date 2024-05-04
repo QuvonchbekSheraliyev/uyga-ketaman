@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="font.css">
+</head>
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class=" bosh  flex justify-around pt-[56px] items-center">
+            <img src="images/logo.svg" alt="" class="yashil">
+
+            <i class=" lola  fa-solid fa-bars  text-[30px]"></i>
+
+            <ul class="flex gap-[34px] items-center font-[Inter] font-medium text-[16px] text-[19px] text-[#B8BECD] 	">
+
+                <li><a href="" class="text  hover:text-black">Home</a></li>
+                <li><a href="" class="text  hover:text-black">Destinations</a></li>
+                <li><a href="" class="text  hover:text-black">About</a></li>
+                <li><a href="" class=" text hover:text-black">Partner</a></li>
+                <li><button type="button"
+                        class="   text-[#FB8F1D]  hover:text-white border border-[#FB8F1D] hover:bg-[#FB8F1D] focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-11 py-2.5 text-center me-2 mb-2 dark:border-[#FB8F1D] dark:text-yellow-300 dark:hover:text-white dark:hover:bg-[#FB8F1D] dark:focus:ring-yellow-900">Login</button>
+                </li>
+                <li><button type="button"
+                        class="   text-[#FB8F1D]  hover:text-white border border-[#FB8F1D] hover:bg-[#FB8F1D] focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center me-2 mb-2 dark:border-[#FB8F1D] dark:text-yellow-300 dark:hover:text-white dark:hover:bg-[#FB8F1D] dark:focus:ring-yellow-900">Register</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class=" mers ">
+        <section class="hoho flex gap-[100px] justify-around ">
+            <div>
+                <img src="images/main-img.svg" alt="" class="pepe mt-[72px] w-[600px]">
+            </div>
+            <div class="  pt-[114px]">
+                <p style="font-family:Playfair Display ;" class=" Explore font-bold	text-[64px]">
+                    Explore and <br>
+                    Travel
+                </p>
+                <p style="font-family: inter ;" class=" finder font-semibold text-[22px] text-[26px] pt-[74px]	">
+                    Holiday finder
+                </p>
+                <div class=" momo w-8	h-0.5 bg-black mt-[21px]	">
+
+                </div>
+                <div class="baby flex  gap-[50px] pt-[20px]">
+                    <div>
+
+                        <form class="max-w-sm ">
+
+                            <select id="countries"
+                                class="px-7  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>Location</option>
+                                <option value="US">United States</option>
+                                <option value="CA">Canada</option>
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                            </select>
+                        </form>
+
+                    </div>
+                    <div>
+                        <form class="max-w-sm ">
+
+                            <select id="countries"
+                                class="px-[50px]  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>Activity</option>
+                                <option value="US">Good</option>
+                                <option value="CA">Normal</option>
+                                <option value="FR">Bad</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class=" baby flex gap-[50px] pt-[20px]">
+                    <div>
+
+                        <form class="max-w-sm ">
+
+                            <select id="countries"
+                                class="px-[50px] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>Grade</option>
+                                <option value="US">5</option>
+                                <option value="CA">4</option>
+                                <option value="FR">3</option>
+                                <option value="DE">2</option>
+                            </select>
+                        </form>
+
+                    </div>
+                    <div>
+                        <form class="max-w-sm ">
+
+                            <select id="countries"
+                                class=" px-[60px] 	  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-7 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>Date</option>
+                                <option value="US">2023</option>
+                                <option value="CA">2024</option>
+                                <option value="FR">2025</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <button type="button"
+                    class=" btn mt-[20px]   text-[#FB8F1D]  hover:text-white border border-[#FB8F1D] hover:bg-[#FB8F1D] focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-11 py-2.5 text-center me-2 mb-2 dark:border-[#FB8F1D] dark:text-yellow-300 dark:hover:text-white dark:hover:bg-[#FB8F1D] dark:focus:ring-yellow-900">Login</button>
+            </div>
+            <div>
+                <img src="images/main-img.svg" alt="" class="lolo mt-[72px] w-[600px]">
+            </div>
+
+
+        </section>
+        <section class="bmw flex justify-around">
+            <div class=" sev pt-[180px]">
+                <img src="images/main 2.svg" alt="">
+
+            </div>
+            <div class="pt-[300px]">
+                <p style="font-family: Playfair Display;
+        font-weight: 700; 
+        font-size: 36px;
+        line-height: 50px;" class="new">
+                    A new way to explore the <br> world
+                </p>
+                <p class="for">
+                    For decades travellers have reached for Lonely Planet <br> books when looking to plan and execute
+                    their perfect <br>
+                    trip, but now, they can also let Lonely Planet Experiences <br> lead the way
+                </p>
+                <button type="button"
+                    class=" btn mt-[20px]   text-[#FB8F1D]  hover:text-white border border-[#FB8F1D] hover:bg-[#FB8F1D] focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-11 py-2.5 text-center me-2 mb-2 dark:border-[#FB8F1D] dark:text-yellow-300 dark:hover:text-white dark:hover:bg-[#FB8F1D] dark:focus:ring-yellow-900">Learn
+                    more</button>
+            </div>
+        </section>
+        <section class="">
+            <div class=" all flex items-center
+justify-center pt-[252px] gap-[560px]">
+                <p style="font-family: Playfair Display;
+    font-weight: 700; 
+    font-size: 36px;
+    line-height: 50px;">
+                    Featured destinations
+                </p>
+                <p style="font-family:Inter;
+    font-weight: 600;
+font-size: 17px; 
+line-height: 60px;" class="text-[#FB8F1D] ">
+                    View all
+                    <i class="fa-solid fa-chevron-right"></i>
+                </p>
+            </div>
+            <div class="">
+                <div class=" hosi mt-[56px] flex gap-[25px] justify-center">
+
+                    <div style="background-image: url(images/ocaen.svg)
+   ;background-repeat: no-repeat;
+   background-size: cover;
+   width: 261px;
+   height: 337px;
+   border-radius: 10px;" class="mages">
+                        <div
+                            class="animation rounded-[5px] w-[120px] mt-[290px] bg-white pl-[10px] h-[56px] ml-[-115px]">
+                            <p style=" font-family:Inter;
+        font-weight: 600;
+    font-size: 15px; 
+    line-height: 24px;" class" ">
+            Raja Ampat 
+        </p>
+        <p style=" font-family:Inter; font-weight: 500; font-size: 15px; line-height: 24px;">
+                                Indonesia
+                            </p>
+                        </div>
+                    </div>
+                    <div style="background-image: url(images/mountain.svg)
+   ;background-repeat: no-repeat;
+   background-size: cover;
+   width: 261px;
+   height: 337px;
+   border-radius: 10px;" class="mages">
+                        <div class="animation rounded-[5px] w-[120px] mt-[290px] bg-white pl-[10px] ml-[-115px]
+    
+
+    
+  
+	
+    h-[56px]">
+                            <p style=" font-family:Inter;
+        font-weight: 600;
+    font-size: 15px; 
+    line-height: 24px;" class="lele">
+                                Fanjingshan
+
+                            </p>
+                            <p style="font-family:Inter;
+        font-weight: 500;
+    font-size: 15px; 
+    line-height: 24px;">
+                                China
+                            </p>
+                        </div>
+                    </div>
+                    <div style="background-image: url(images/house.svg)
+   ;background-repeat: no-repeat;
+   background-size: cover;
+   width: 261px;
+   height: 337px;
+   border-radius: 10px;" class="mages">
+                        <div class="animation rounded-[5px] w-[120px] mt-[290px] bg-white pl-[10px] ml-[-115px]
+    
+
+    
+  
+	
+    h-[56px]">
+                            <p style=" font-family:Inter;
+        font-weight: 600;
+    font-size: 15px; 
+    line-height: 24px;" class" ">
+          Vevey
+
+        </p>
+        <p style=" font-family:Inter; font-weight: 500; font-size: 15px; line-height: 24px;">
+                                Switzerland
+                            </p>
+                        </div>
+                    </div>
+                    <div style="background-image: url(images/manzara.svg)
+                    ;background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 261px;
+                    height: 337px;
+                    border-radius: 10px;" class="mages">
+                        <div class="animation rounded-[5px] w-[120px] mt-[290px] bg-white pl-[10px] ml-[-115px]
+                     
+                 
+                     
+                   
+                     
+                     h-[56px]">
+                            <p style=" font-family:Inter;
+                         font-weight: 600;
+                     font-size: 15px; 
+                     line-height: 24px;" class" ">
+                           Skadar
+                           
+                 
+                         </p>
+                         <p style=" font-family:Inter; font-weight: 500; font-size: 15px; line-height: 24px;">
+                                Montenegro
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class=" lot  flex justify-around pt-[173px]">
+            <div class="pt-[152px]">
+                <p style="font-family:Playfair Display ;" class=" Explore font-bold	text-[36px] text-[50px]">
+                    Guides by Thousand <br>
+                    Sunny
+                </p>
+                <p class="for pt-[20px]">
+                    Packed with tips and advice from our on-the-ground <br> experts, our city guides app (iOS and
+                    Android) is the <br> ultimate resource before and during a trip.
+                </p>
+                <button type="button"
+                    class="lobot mt-[33px]  text-[#FB8F1D]  hover:text-white border border-[#FB8F1D] hover:bg-[#FB8F1D] focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-11 py-2.5 text-center me-2 mb-2 dark:border-[#FB8F1D] dark:text-yellow-300 dark:hover:text-white dark:hover:bg-[#FB8F1D] dark:focus:ring-yellow-900">Dowland</button>
+            </div>
+            <div class="main-4">
+                <img src="images/main 4.svg" alt="">
+            </div>
+        </section>
+        <section class="gol pt-[248px] flex justify-around">
+            <div>
+                <p style="font-family:Playfair Display ;" class=" Explore font-bold	text-[36px] text-[50px]">
+                    Testimonials
+                </p>
+                <div class="star flex gap-[15px] pt-[145px]">
+                    <img src="images/star.svg" alt="">
+                    <img src="images/star.svg" alt="">
+                    <img src="images/star.svg" alt="">
+                    <img src="images/star.svg" alt="">
+                    <img src="images/star.svg" alt="">
+                </div>
+                <p class="in text-black text-[24px] pt-[30px]">
+                    “Quisque in lacus a urna fermentum <br> euismod. Integer mi nibh, dapibus ac <br> scelerisque eu,
+                    facilisis quis purus. Morbi <br> blandit sit amet turpis nec”
+                </p>
+                <p style="font-family: Inter;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 48px;
+                padding-top: 40px;" class="new">
+                    Edward Newgate
+                </p>
+                <p style="font-family: Inter;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 48px;
+                " class="newe">
+                    Founder Circle
+                </p>
+            </div>
+            <div class="carl pt-[65px] w-[384px]" style="background-image: url(images/carl.svg)
+            ;
+            background-repeat: no-repeat;">
+
+                <div class="flex w-[132px] h-[60px] gap-[22px]" style="border-radius: 15px 0px 0px 0px ;margin-top: -40px; background-color: white; 
+                margin-top: 374px;margin-left: 260px ;">
+                    <img src="images/chap.svg" alt="" class="w-[40px] h-[40px]" ">
+                    <img src=" images/ung.svg" alt="" class="w-[40px] h-[40px]">
+                </div>
+            </div>
+        </section>
+        <section class="pt-[213px]">
+            <div class=" all flex items-center
+            justify-center pt-[252px] gap-[560px]">
+                <p style="font-family: Playfair Display;
+                font-weight: 700; 
+                font-size: 36px;
+                line-height: 50px;">
+                    Trending stories
+                </p>
+                <p style="font-family:Inter;
+                font-weight: 600;
+            font-size: 17px; 
+            line-height: 60px;" class="text-[#FB8F1D] ">
+                    View all
+                    <i class="fa-solid fa-chevron-right"></i>
+                </p>
+            </div>
+            <div class="flex justify-around pt-[26px]">
+                <div>
+<div >
+ <img src="images/ichki hotirjamlik.svg" alt="" style="border-radius: 10px;">
+</div>
+<div style="width: 260px;height: 300px;">
+    <p style="font-family:Inter;
+    font-weight: 700;
+font-size: 19px; 
+line-height: 30px;">
+        The many benefits of  <br>
+taking a healing holiday
+    </p>
+    <p style="font-family:Inter;
+    font-weight: 400;
+font-size: 15px; 
+line-height: 26px;
+padding-top: 13px;
+color: #7D7987;"
+>
+        ‘Helaing holidays’ are on the rise <br>
+tohelp maximise your health and <br> happines...
+    </p>
+    <p style="font-family:Inter;
+    font-weight: 600;
+font-size: 15px; 
+line-height: 28px;
+padding-top: 23px;color: #fc9930;">
+        Read more
+    </p>
+</div>
+
+                </div>
+                <div class="rasm">
+                    <div class=" ">
+                     <img class="w-[201px] h-[232px]" src="images/ichki hotirjamlik 2.svg" alt="" style="border-radius: 10px; width:261px;height:332px;">
+                    </div>
+                    <div style="width: 260px;height: 300px;">
+                        <p style="font-family:Inter;
+                        font-weight: 700;
+                    font-size: 19px; 
+                    line-height: 30px;">
+                         The best Kyoto restaurant <br>
+                         to try Japanese food
+                        </p>
+                        <p style="font-family:Inter;
+                        font-weight: 400;
+                    font-size: 15px; 
+                    line-height: 26px;
+                    padding-top: 13px;
+                    color: #7D7987;"
+                    >
+                    From tofu to teahouses, here’s our <br> guide to Kyoto’s best restaurants <br>
+                    to visit...
+                        </p>
+                        <p style="font-family:Inter;
+                        font-weight: 600;
+                    font-size: 15px; 
+                    line-height: 28px;
+                    padding-top: 23px;color: #fc9930;">
+                            Read more
+                        </p>
+                    </div>
+                    
+                                    </div>
+                                    <div>
+                                        <div >
+                                         <img src="images/ichki hotirjamlik 3.svg" alt="" style="border-radius: 10px;">
+                                        </div>
+                                        <div style="width: 260px;height: 300px;">
+                                            <p style="font-family:Inter;
+                                            font-weight: 700;
+                                        font-size: 19px; 
+                                        line-height: 30px;">
+                                              Skip Chichen Itza and head <br>
+                                              to this remote Yucatan
+                                            </p>
+                                            <p style="font-family:Inter;
+                                            font-weight: 400;
+                                        font-size: 15px; 
+                                        line-height: 26px;
+                                        padding-top: 13px;
+                                        color: #7D7987;"
+                                        >
+                                        It’s remote and challenging to get,<br>
+                                        but braving the jungle and exploring <br>
+                                        these ruins without the...
+                                            </p>
+                                            <p style="font-family:Inter;
+                                            font-weight: 600;
+                                        font-size: 15px; 
+                                        line-height: 28px;
+                                        padding-top: 23px;color: #fc9930;">
+                                                Read more
+                                            </p>
+                                        </div>
+                                        
+                                                        </div>
+                                                        <div>
+                                                            <div >
+                                                             <img src="images/ichki hotirjamlik 4.svg" alt="" style="border-radius: 10px;">
+                                                            </div>
+                                                            <div style="width: 260px;height: 300px;">
+                                                                <p style="font-family:Inter;
+                                                                font-weight: 700;
+                                                            font-size: 19px; 
+                                                            line-height: 30px;">
+                                                                   Surf’s up at these beginner <br>
+                                                                   spots around the world
+                                                                </p>
+                                                                <p style="font-family:Inter;
+                                                                font-weight: 400;
+                                                            font-size: 15px; 
+                                                            line-height: 26px;
+                                                            padding-top: 13px;
+                                                            color: #7D7987;"
+                                                            >
+                                                            If learning to surf has in on your to- <br>
+                                                            do list for a while, the good news <br>
+                                                            is: it’s never too late...
+                                                                </p>
+                                                                <p style="font-family:Inter;
+                                                                font-weight: 600;
+                                                            font-size: 15px; 
+                                                            line-height: 28px;
+                                                            padding-top: 23px;color: #fc9930;">
+                                                                    Read more
+                                                                </p>
+                                                            </div>
+                                                            
+                                                                            </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

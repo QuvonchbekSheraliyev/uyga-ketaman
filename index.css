@@ -1,0 +1,210 @@
+.lola {
+    display: none;
+}
+
+.pepe {
+    display: none;
+}
+
+@media (max-width:800px) {
+    .lola {
+        display: block;
+    }
+
+    .yashil {
+        display: none;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .bosh {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:950px) {
+    .mers {
+        display: block;
+    }
+
+    .hoho {
+        display: block;
+    }
+
+    .lolo {
+        display: none;
+    }
+
+    .pepe {
+        display: block;
+        margin: auto;
+    }
+
+    .hoho {
+        display: block;
+
+        justify-content: center;
+    }
+
+    .Explore {
+        text-align: center;
+    }
+
+    .finder {
+        text-align: center;
+    }
+
+    .momo {
+        margin: auto;
+    }
+
+    .baby {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+
+        margin-left: 230px;
+    }
+
+    .bmw {
+        display: block;
+    }
+
+    .new {
+        text-align: center;
+    }
+
+    .for {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .hosi {
+        display: block;
+        justify-content: center;
+        margin: auto;
+    
+
+    }
+
+    .all {
+        display: block;
+        text-align: center;
+    }
+    .hosi div {
+        margin: auto;
+        
+    }}
+      
+    
+
+    
+
+@media (max-width:950px){
+    .mages{
+    margin-top: 30px;}
+.lot{
+display: block;}    
+.rasm{
+display: block;}
+.gol{
+display: block;
+}
+.star{
+display: flex;
+justify-content: center;
+margin-top: -80px;}
+.in{
+text-align: center;}
+.new{
+text-align:center;}
+.newe{
+text-align: center;}
+.carl{
+margin: auto}
+
+
+
+.main-4{
+padding-top: 40px;
+width: 450px;
+margin: auto;}
+}
+.lobot{
+margin-left: 230px;}
+
+
+
+@media (max-width:600px) {
+    .pepe {
+        width: 450px;
+        margin-top: 30px;
+    }
+
+    .hoho {
+        display: block;
+
+
+    }
+    
+
+    .sev {
+        display: block;
+        margin: auto;
+        width: 450px;
+    }
+
+    .hosi div {
+        margin: auto;
+    }
+    .bg{
+        align-items: center;
+    margin-bottom: 30px;}
+
+
+
+
+
+}
+
+@media (max-width:400px) {
+    .hoho {
+        justify-content: center;
+    }
+    
+
+}
+
+.for {
+    font-family: muli;
+    font-weight: 400px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #787481;
+}
+.animation{
+opacity: 0;
+box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.mages:hover .animation{
+transform: translateX(95px)
+
+;
+cursor: pointer;
+opacity: 1;
+transition: .8s;}
+.mages:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+    .in{
+        font-family: muli;
+    font-weight: 400px;
+    font-size: 24px;
+
+    color: #000000;
+    }
